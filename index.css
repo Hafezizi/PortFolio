@@ -115,3 +115,88 @@ h1{
 .offre{
     text-align: center;
 }
+
+.offre span{
+    font-family: Roboto;
+    font-size: 30px;
+}
+.offre p{
+    font-family: Raleway;
+}
+
+.web-design{
+    margin-left: 195px;
+    margin-top: 70px;   
+}
+.web-design span{
+    margin-left: 100px;
+    padding: 20px;
+}
+.web-design h4{
+    margin-left: 80px;
+    padding: 23px;
+}
+.web-dev{
+    margin-left: 595px;
+    margin-top: -180px;
+}
+.web-dev span{
+    margin-left: 100px;
+    padding: 20px;
+}
+.web-dev h4{
+    margin-left: 50px;
+    padding: 20px;
+}
+.photography{
+    margin-left: 985px;
+    margin-top: -170px;
+}
+.photography span{
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.photography h4{
+    margin-left: 60px;
+    padding: 22px;
+}
+.clipping-path{
+    margin-left: 195px;
+    margin-top: 70px;
+}
+.clipping-path span{
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.clipping-path h4{
+    margin-left: 80px;
+    padding: 23px;
+}
+.apps-interface{
+    margin-left: 595px;
+    margin-top: -180px;
+}
+.apps-interface span{
+    margin-left: 100px;
+    padding: 10px;
+}
+.apps-interface h4{
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.graphic-design{
+    margin-left: 985px;
+    margin-top: -170px;
+}   
+.graphic-design span{
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.graphic-design h4{
+    margin-left: 60px;
+    padding: 22px;
+}
