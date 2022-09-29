@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -124,79 +124,83 @@ h1{
     font-family: Raleway;
 }
 
-.web-design{
-    margin-left: 195px;
-    margin-top: 70px;   
+.conteneur-flex1{
+    display: flex;
+    padding: 65px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    
 }
-.web-design span{
+.element-flex span{
     margin-left: 100px;
-    padding: 20px;
-}
-.web-design h4{
-    margin-left: 80px;
-    padding: 23px;
-}
-.web-dev{
-    margin-left: 595px;
-    margin-top: -180px;
-}
-.web-dev span{
-    margin-left: 100px;
-    padding: 20px;
-}
-.web-dev h4{
-    margin-left: 50px;
-    padding: 20px;
-}
-.photography{
-    margin-left: 985px;
-    margin-top: -170px;
-}
-.photography span{
-    margin-left: 90px;
-    padding: 10px;
+    margin-bottom: 35px;
 }
 
-.photography h4{
-    margin-left: 60px;
-    padding: 22px;
+.element-flex h4{
+    margin-left: 70px;
+    margin-bottom: 35px;
 }
-.clipping-path{
-    margin-left: 195px;
-    margin-top: 70px;
-}
-.clipping-path span{
-    margin-left: 100px;
-    padding: 20px;
-}
-
-.clipping-path h4{
-    margin-left: 80px;
-    padding: 23px;
-}
-.apps-interface{
-    margin-left: 595px;
-    margin-top: -180px;
-}
-.apps-interface span{
-    margin-left: 100px;
-    padding: 10px;
-}
-.apps-interface h4{
-    margin-left: 50px;
-    padding: 20px;
+.conteneur-flex2{
+    display: flex;
+    padding-left: 95px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
 }
 
-.graphic-design{
-    margin-left: 985px;
-    margin-top: -170px;
-}   
-.graphic-design span{
-    margin-left: 90px;
-    padding: 10px;
+.conteneur-flex3{
+    display: flex;
+    padding: 6%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(76,190,225,1) 4%, rgba(124,171,247,1) 71%, rgba(73,188,250,1) 98%, rgba(0,212,255,0.9108018207282913) 100%);
+}
+ .number{
+    margin-left: 54px;
+    position: relative;
+    color: #fff;
+}
+.nb{
+    color: red;
+    margin-left: 30px;
 }
 
-.graphic-design h4{
-    margin-left: 60px;
-    padding: 22px;
+.featured-projet{
+    text-align: center;
+    padding:75px 25px;
+}
+
+.featured-projet span{
+    font-family: Roboto;
+    font-size: 30px;
+}
+.featured-projet p{
+    font-family: Raleway;
+}
+.projet {
+    display:flex;
+    justify-content:space-around;
+    padding: 40px 450px;
+    font-size: 18px;
+
+}
+
+ .projet a{
+    color: rgb(15, 17, 17);
+}
+.projet a:hover{
+    color: cornflowerblue;
+    transition: 590ms ease-in-out all;
+}
+
+.conteneur-img{
+    width: 50%;
+    display: flex;
+    min-width: 200px;
+    max-width: 800px;
+    margin: 10px auto;   
+}
+.sun{
+    width: 90%;
 }
