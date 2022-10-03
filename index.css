@@ -89,11 +89,6 @@ h1{
     padding-left: 40%;
     margin-top: -285px;
 }
-.about span{
- 
-
-    
-}
 
 .about h3{
     font-family: Roboto;
@@ -210,18 +205,20 @@ h1{
     margin: 10px auto;   
 }
 .conteneur-img p{ 
-   
+   text-align: center;
     position: relative;
 }
 .sun{
     width: 90%;
 }
-
 .Feed-about-me{
     text-align: center;
     padding:75px 25px;   
 }
-
+.plan{
+    padding: 15px;
+    margin: 25px;
+}
 .Feed-about-me span{
     font-family: Roboto;
     font-size: 30px;
@@ -236,11 +233,9 @@ h1{
         padding: 55px;
     }
     .element-fle{
-        background-color: rgb(189, 184, 178);
+        background-color: rgb(255, 255, 255);
         padding-left:100px;
-    
-        border: 1px solid red;
-    }
+        }
     .element-fle h4{
         position: static;
         padding: 15px;
@@ -369,7 +364,9 @@ h1{
 
 .element-fl p{
     position: relative;
+    padding-left: -5px;
 }
+
 
 .conteneur-footer{
     display: flex;
