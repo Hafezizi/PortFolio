@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Poppins:wght@400;700&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -56,18 +58,26 @@ nav .nav-link{
 }
 
 .me{
-    font-family: Roboto;
+    font-family:"Poppins", sans-serif;
+    font-size: 14px;
 }
+
 h1{
     font-size: 50px;
+    margin : 15px;
+    margin-left: -2px;
 }
 .section p{
-    
-    font-family: Raleway;
+ color: #777777;
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 1.625em;
+ font-family:"Poppins", sans-serif;
 }
 .section button{
     width: 150px;
-    margin: 10px;
+    margin-left:-1px;
+    margin-top: 10px;
     padding: 10px;
     color: #fff;
     background:   linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(138,180,249,1) 7%, rgba(0,212,255,0.9108018207282913) 100%);
@@ -76,7 +86,7 @@ h1{
 }
 
 .about-me{
-    padding: 100px;
+    padding: 40px;
     position: relative;
 }
 .about-me img{
@@ -86,21 +96,31 @@ h1{
     margin-top: -135px;
 }
 .about{
-    padding-left: 40%;
+    margin: 5px;
+    padding-left: 50%;
     margin-top: -285px;
+    position: relative;
 }
 
-.about h3{
-    font-family: Roboto;
-    
+.about h1{
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+    padding-top: -45px;
+    margin-top: 10px;
 }
 .about p{
-    font-family:Raleway;
+    font-family:"Poppins",sans-serif;
+    color: #777777  ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    max-width:  445px;
 }
 .about button{
     width: 170px;
     margin: 9px;
     padding: 9px;
+    margin-left: 0px;
     color: #fff;
     background:   linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(138,180,249,1) 7%, rgba(0,212,255,0.9108018207282913) 100%);
     border: none;
@@ -116,21 +136,34 @@ h1{
     font-size: 30px;
 }
 .offre p{
-    font-family: Raleway;
+    font-family: "Poppins",sans-serif;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
 }
 
 .conteneur-flex1{
     display: flex;
-    padding: 65px;
+    padding: 95px;
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.element-flex span{
+.element-flexe{margin: 35px;
+}
+.element-flexe p{
+    font-family: "Poppins",sans-serif;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+.element-flexe span{
     margin-left: 100px;
     margin-bottom: 35px;
 }
 
-.element-flex h4{
+.element-flexe h4{
     margin-left: 70px;
     margin-bottom: 35px;
 }
@@ -144,7 +177,7 @@ h1{
 
 .conteneur-flex3{
     display: flex;
-    padding: 6%;
+    padding: 7%;
     flex-flow: row wrap;
     justify-content: space-around;
     background: linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(76,190,225,1) 4%, rgba(124,171,247,1) 71%, rgba(73,188,250,1) 98%, rgba(0,212,255,0.9108018207282913) 100%);
@@ -176,10 +209,15 @@ h1{
 
 .featured-projet span{
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 35px;
 }
 .featured-projet p{
-    font-family: Raleway;
+    font-family:"Poppins", sans-serif;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    
 }
 .projet {
     display:flex;
@@ -208,6 +246,12 @@ h1{
 .conteneur-img p{ 
    text-align: center;
     position: relative;    
+    font-size: 22px;
+    color: rgb(7, 6, 6);
+}
+.conteneur-img span{
+    color: #777777;
+    margin-left: 15px;
 }
 .conteneur-img h6{
     font-size: 16px;
@@ -215,19 +259,35 @@ h1{
 }
 
 .sun{
-    width: 90%;
+    width: 95%;
 }
 .Feed-about-me{
     text-align: center;
-    padding:75px 25px;   
+    padding:45px 25px;   
 }
 .plan{
     padding: 15px;
     margin: 25px;
 }
+.plan p{
+    padding: 12px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-family:"Poppins", sans-serif;
+}
 .Feed-about-me span{
-    font-family: Roboto;
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
+    padding: 35px;
+}
+.Feed-about-me p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    font-family:"Poppins", sans-serif;
 }
 .conteneur-flex4{
     display: flex;
@@ -276,81 +336,56 @@ h1{
     justify-content: space-around;    
     background: radial-gradient(circle, rgba(220,220,220,1) 0%, rgba(248,248,255,1) 7%);
 }
-.element-plan{
+.element-plan:hover{
     max-height: 10px;
-    min-height: 450px;
+    min-height: 550px;
     max-width: 100px;
     min-width: 280px;
     padding-top: 45px;
+    background: linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(76,190,225,1) 1%, rgba(124,171,247,1) 34%, rgba(73,188,250,1) 99%, rgba(73,188,250,0.9108018207282913) 10%);
 }
 .ceo{
    margin-top: -8px;
   
 }
-.element-plan03{
-    max-height: 10px;
-    min-height: 450px;
-    max-width: 100px;
-    min-width: 280px;
-    padding-top: 45px;
-    background: linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(76,190,225,1) 1%, rgba(124,171,247,1) 34%, rgba(73,188,250,1) 99%, rgba(0,212,255,0.9108018207282913) 100%);}
+
 .element-plan p{
     background: radial-gradient(circle, rgba(220,220,220,1) 0%, rgba(230,230,255,1) 3%);
     border-radius: 50%;
     height:125px;
     width: 125px;
     text-align: center;
-    margin-left: 65px;
+    margin-left: 75px;
     position:absolute
 }
 
-.element-plan03 p{
-    background-color: rgb(191, 199, 212);
-    border-radius: 50%;
-    height:125px;
-    width: 125px;
-    text-align: center;
-    margin-left: 65px;
-    position:absolute
-}
 .element-plan h6{
     background: rgb(220,220,220);
     border-radius: 50%;
     height: 75px;
     width: 75px;
     margin-top: 25px;
-    margin-left:90px;
+    margin-left:100px;
     position: relative;
     text-align: center;
     font-size: 35px;
     padding: 20px;
 }
 
-.element-plan03 h6{
-    background: rgb(220,220,220);
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-    margin-top: 25px;
-    margin-left:90px;
-    position: relative;
-    text-align: center;
-    font-size: 35px;
-    padding: 20px;
-}
 .text{
-    padding: 55px;
+    padding: 55px ;
 }
 .text h3{
     text-align: center;
-    padding: 5px;
+    padding: 5px ;
 }
 .text h4{
     text-align: center;
-    padding: 14px;
-    color: rgb(191, 199, 212);
+    padding: 35px 45px;
+    font-size: 17px;
+    color: #777777;
 }
-.text h4 button{
+.text  button:hover{
     width: 170px;
     margin: -5px;
     margin-left: -15px;
@@ -358,13 +393,14 @@ h1{
     border: none;
     border-radius: 5%;
 }
-.text h5{ color: rgb(191, 199, 212);
+.text h5{ color: #777777;
            font-size: 13px;
            border-top:1px solid  rgb(191, 199, 212);
-           max-width: 85px;
-           min-width: 175px;
-           max-height: 25px;
-           min-height: 36px;
+           max-width: 125px;
+           min-width: 195px;
+           max-height: 95px;
+           min-height: 46px;
+           padding: 15px  ;
            text-align: center;
 }   
 
@@ -375,8 +411,14 @@ h1{
 
 .mark {
     position: inherit;
-    margin-left: -140px;
+    margin-left: -245px;
  
+}
+
+.icon{
+    margin-left: 200px;
+    color: #777777;
+    margin-top: -15px;
 }
 .conteneur-footer{
     display: flex;
