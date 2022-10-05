@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@400;700&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Poppins:wght@400;700&family=Raleway:wght@300&family=Roboto:wght@700&family=Titillium+Web:wght@300&display=swap');
 *{
@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Roboto;
 }
 body{
   background:#fff;
@@ -149,8 +150,7 @@ h1{
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.element-flexe{margin: 35px;
-}
+.element-flexe{margin: 35px;color: inherit;}
 .element-flexe p{
     font-family: "Poppins",sans-serif;
     color: #777777;
@@ -336,20 +336,24 @@ h1{
     justify-content: space-around;    
     background: radial-gradient(circle, rgba(220,220,220,1) 0%, rgba(248,248,255,1) 7%);
 }
-.element-plan:hover{
-    max-height: 10px;
-    min-height: 550px;
-    max-width: 100px;
-    min-width: 280px;
+.element-plan{
+    height: 575px;
+    max-width: 280px;
+    min-width: 100px;
     padding-top: 45px;
+    position: relative;
+    transition: .3s;
+}
+.element-plan:hover {
     background: linear-gradient(96deg, rgba(34,207,205,1) 0%, rgba(76,190,225,1) 1%, rgba(124,171,247,1) 34%, rgba(73,188,250,1) 99%, rgba(73,188,250,0.9108018207282913) 10%);
 }
+
 .ceo{
    margin-top: -8px;
   
 }
 
-.element-plan p{
+.element-plan div.border-round{
     background: radial-gradient(circle, rgba(220,220,220,1) 0%, rgba(230,230,255,1) 3%);
     border-radius: 50%;
     height:125px;
@@ -372,37 +376,60 @@ h1{
     padding: 20px;
 }
 
-.text{
+.element-body{
     padding: 55px ;
 }
-.text h3{
+.element-body h3{
     text-align: center;
     padding: 5px ;
 }
-.text h4{
+.element-body h4{
     text-align: center;
     padding: 35px 45px;
     font-size: 17px;
     color: #777777;
+
 }
-.text  button:hover{
-    width: 170px;
-    margin: -5px;
-    margin-left: -15px;
-    padding: 9px;
-    border: none;
-    border-radius: 5%;
+.element-body .button-buy{
+    background-color: #ccc;
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: -25px;
+    border-radius: 3px;
+    visibility: hidden;
 }
-.text h5{ color: #777777;
-           font-size: 13px;
-           border-top:1px solid  rgb(191, 199, 212);
-           max-width: 125px;
-           min-width: 195px;
-           max-height: 95px;
-           min-height: 46px;
-           padding: 15px  ;
-           text-align: center;
-}   
+
+.element-body h5{ color: #777777;
+    font-size: 13px;
+    border-top:1px solid  rgb(191, 199, 212);
+    max-width: 125px;
+    min-width: 195px;
+    max-height: 95px;
+    min-height: 46px;
+    padding: 15px  ;
+    text-align: center;
+}
+
+.price {
+    color: #222;
+    font-size: 16px;
+    padding: 15px  45px;
+    text-align: center;
+    visibility: visible;
+}
+
+.element-plan:hover .price {
+    visibility: hidden;
+}
+
+.element-plan:hover .button-buy {
+    visibility: visible;
+}
+
 
 .element-fl p{
     position: relative;
